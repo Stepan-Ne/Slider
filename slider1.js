@@ -6,7 +6,7 @@ let slider = {
   imgSlider: document.querySelector('#img-car'),
 
   start: function() {
-    let that = this; //ухватились за объект
+    let that = this; //get the object (slider)
     //subscribe to events
     this.btnLeft.addEventListener('click', function(e) {that.onClickLeft(e);});
     this.btnRight.addEventListener('click', function(e) {that.onClickRight(e);});
